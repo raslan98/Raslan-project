@@ -13,9 +13,16 @@ input[type='date'] {
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    border-color: lightgray; 
+    border: 1px solid lightgray; 
     font-size: large;
 }
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 20px;
+}
+
 .btn {
     border-radius: 4px;
     padding: 5px 15px;

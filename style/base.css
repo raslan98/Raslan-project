@@ -44,9 +44,11 @@ label {
 .a {
     color: #2c3e50;
 }
-a:hover {
-    color: red;
+a.active {
+    background-color: #000;
+    color: white;
 }
+
 /*
 Primary color: #2c3e50;
 Secondary: #fff

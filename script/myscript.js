@@ -1,4 +1,4 @@
-function validaRegisterForm() {
+function validateloginForm() {
     let firstNameValue = document.getElementById("firstName").value;
     if (firstNameValue == "") {
         alert("Name must be filled out");
@@ -22,10 +22,11 @@ function validaRegisterForm() {
         alert("Date of birth must be filled out");
         return;
     }
+    window.location = "../src/login.html" /*this is not wroking*/
 }
 
 
-function validaloginForm() {
+function validateloginForm() {
     let emailValue = document.getElementById("email").value;
     if (emailValue == "") {
         alert("Email address must be filled out");
@@ -37,5 +38,5 @@ function validaloginForm() {
         alert("Password must be filled out");
         return;
     }
-
+    window.location = "home.html"
 }
