@@ -1,0 +1,53 @@
+body {
+    color: #555;
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px
+}
+header {
+    text-align: left;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+h2 {
+    margin: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+form {
+    margin: 10px;
+}
+textarea {
+    height: 90px;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+footer {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+label {
+    color: #555;
+    font-size: 14px;
+    padding-bottom: 5px;
+    display: block;
+}
+.a {
+    color: #2c3e50;
+}
+a:hover {
+    color: red;
+}
+/*
+Primary color: #2c3e50;
+Secondary: #fff
+*/

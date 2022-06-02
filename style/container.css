@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+} 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #000;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+div.container {
+    margin: 30px 200px;
+    padding: 10px 10px;
+}
+.block {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 150px;
+    padding: 30px 0;
+    border: 1px solid #555;
+    border-color: rgb(206, 200, 200);
+    border-radius: 5px;
+    
+}

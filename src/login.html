@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style/base.css"/>
+        <link rel="stylesheet" href="../style/form.css"/>
+        <link rel="stylesheet" href="../style/align.css"/>
+        <link rel="stylesheet" href="../style/box.css"/>
+    </head>
+<body>
+    <header><i class="fa fa-home"></i>&nbsp;RaslanPro+</header>
+    <div class="box-s">
+    <div class="box-header">
+        <div class="title">Login</div>
+        <p class="center">Don't have an account, Click here to <a href="../index.html">Signup</a></p>
+    </div>
+    <div class="box-contant">
+        <form name="myForm"  onsubmit="return validaloginForm()" method="post">
+            <div class="fields">
+                <label>Email Addresss:</label>
+                <input type="text" id="email" placeholder="Enter your email" class="input"/>
+            </div>
+            <div class="fields">
+                <label>Password:</label>
+                <input type="text" id="password" placeholder="Enter your password" class="input"/>
+            </div>
+            <div class="fields">
+                <input type="checkbox"/>Remember password?
+            </div>
+            <div class="btn-container">
+                <input type="submit" value="submit" class="btn btn-m btn-primary" onclick="myFunction()"/>
+                <input type="reset" value="Reset" class="btn btn-m btn-primary"/>
+            </div>
+        </form>
+    </div>
+    </div>
+    <script src="../script/myscript.js"></script>
+    <script>
+        function myFunction() {
+            window.location.href("../src/home.html")
+        }
+    </script>
+    <footer>© 2022 Yahoo. All rights reserved.</footer>
+    </body>
+</html>
