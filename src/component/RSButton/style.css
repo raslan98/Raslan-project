@@ -1,8 +1,8 @@
 .btn-s {
-    font-size: 16px;
+    font-size: 16px
 }
 .btn-m {
-    font-size: 18px;
+    font-size: 18px
 }
 .btn-l {
     font-size: 20px;
@@ -18,32 +18,39 @@
 .secondary-a {
     border-radius: 5px;
     padding: 10px 5px;
-    background-color: white;
-    border-color: #000;
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .primary-b {
     border-radius: 5px;
     padding: 10px 5px;
-    border-color: #d35e5e;
-    background-color: #d35e5e;
+    border-color: #000;
+    background-color: #000;
+    color: white;
+    
 }
 .secondary-b {
     border-radius: 5px;
     padding: 10px 5px;
     border-color: #ecf0f1;
     background-color: #ecf0f1;
+    margin-left: 20px;
 }
 
 .primary-c {
     border-radius: 5px;
     padding: 10px 5px;
-    border-color: #9b59b6;
-    background-color: #9b59b6;
+    border-color: #000;
+    background-color: #000;
+    color: white;
 }
 .secondary-c {
     border-radius: 5px;
     padding: 10px 5px;
     border-color: #ecf0f1;
     background-color: #ecf0f1;
+    margin-left: 20px;
 }
