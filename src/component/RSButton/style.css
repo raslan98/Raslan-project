@@ -1,0 +1,49 @@
+.btn-s {
+    font-size: 16px;
+}
+.btn-m {
+    font-size: 18px;
+}
+.btn-l {
+    font-size: 20px;
+}
+
+.primary-a {
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-color: #000;
+    background-color: #000;
+    color: white;
+}
+.secondary-a {
+    border-radius: 5px;
+    padding: 10px 5px;
+    background-color: white;
+    border-color: #000;
+}
+
+.primary-b {
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-color: #d35e5e;
+    background-color: #d35e5e;
+}
+.secondary-b {
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-color: #ecf0f1;
+    background-color: #ecf0f1;
+}
+
+.primary-c {
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-color: #9b59b6;
+    background-color: #9b59b6;
+}
+.secondary-c {
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-color: #ecf0f1;
+    background-color: #ecf0f1;
+}

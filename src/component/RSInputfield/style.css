@@ -1,0 +1,23 @@
+.input-s {
+    width: 25%;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+    padding: 10px 10px;
+}
+
+.input-m {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+    padding: 10px 10px;
+}
+
+.input-l {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+    padding: 10px 10px;
+}
