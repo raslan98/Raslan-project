@@ -1,0 +1,25 @@
+{
+  "name": "raslanproject",
+  "version": "1.0.0",
+  "description": "my first project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raslan98/Raslan-project.git"
+  },
+  "author": "raslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raslan98/Raslan-project/issues"
+  },
+  "homepage": "https://github.com/raslan98/Raslan-project#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1"
+  }
+}
